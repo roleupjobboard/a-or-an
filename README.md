@@ -1,2 +1,2 @@
-# a-or-an
-Offline Package to get the correct indefinite article for a word
+# A or An
+This is the Go implementation of the Javascript library https://github.com/EamonNerbonne/a-vs-an/.
