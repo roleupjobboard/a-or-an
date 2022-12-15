@@ -4,10 +4,6 @@ import (
 	"strings"
 )
 
-// It is the implementation in Go of:
-// https://eamonnerbonne.github.io/a-vs-an/AvsAnDemo/
-// https://github.com/EamonNerbonne/a-vs-an/
-
 type dataNode struct {
 	Article article
 	Next    map[rune]*dataNode
@@ -20,6 +16,7 @@ const (
 	an = article(false)
 )
 
+// Find returns the correct indefinite article for word. It returns either "a" or "an".
 func Find(word string) string {
 	n := dataTree()
 	w := strings.TrimLeft(word, ignoredRuneInPrefixSet)
