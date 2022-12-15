@@ -1,3 +1,6 @@
+/*
+Package indart provides the Find function to identify the correct indefinite article for a word.
+*/
 package indart
 
 import (
