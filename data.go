@@ -1,4 +1,4 @@
-package indefart
+package indart
 
 import (
 	"encoding/json"

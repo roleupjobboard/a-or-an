@@ -1,10 +1,10 @@
-package indefart
+package indart
 
 import (
 	"testing"
 )
 
-func TestFindIndefiniteArticle(t *testing.T) {
+func TestFind(t *testing.T) {
 	type args struct {
 		word string
 	}
